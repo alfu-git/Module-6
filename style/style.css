@@ -248,7 +248,7 @@ section.notes .notes-container .n-p1{
   border-radius: 50%;
 }
 
-.notes-container div.parent div h3{
+.notes-container div.parent div h4{
   margin-bottom: 10px;
   line-height: normal;
   color: #001931;
@@ -264,6 +264,9 @@ section.notes .notes-container .n-p1{
 }
 
 /* design-section */
+section.design{
+  margin-bottom: 120px;
+}
 section.design .design-content{
   display: flex;
   align-items: center;
@@ -309,4 +312,29 @@ section.design .design-content{
 
 .design-content .d-text .spn-div span:hover i{
   color: #F95555;
+}
+
+/* think section */
+section.think .think-content-bg{
+  background-color: #f7f6f2;
+  padding: 60px 0;
+  text-align: center;
+}
+
+section.think .think-content h3{
+  margin-bottom: 10px;
+  font-size: 37px;
+}
+
+section.think .think-content p{
+  margin-bottom: 19px;
+  color: #627382;
+}
+
+section.think .think-content span .rgt-arr i{
+  margin-left: 5px;
+}
+
+section.think .think-content .p-2{
+  margin-top: 15px;
 }
