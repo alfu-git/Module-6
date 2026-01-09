@@ -262,3 +262,51 @@ section.notes .notes-container .n-p1{
   line-height: normal;
   font-size: 15px;
 }
+
+/* design-section */
+section.design .design-content{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.design-content .d-text span{
+  display: block;
+}
+
+.design-content .d-text .spn-1{
+  color: #30b868;
+}
+
+.design-content .d-text .spn-1:hover{
+  color: #F95555;
+}
+
+.design-content .d-text h2{
+  margin: 15px 0;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.design-content .d-text p{
+  color: #627382;
+  margin-bottom: 25px;
+  padding-right: 170px;
+}
+
+.design-content .d-text .spn-div span{
+  color: #001931;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.design-content .d-text .spn-div span i{
+  color: #30b868;
+  margin-right: 6px;
+}
+
+.design-content .d-text .spn-div span:hover i{
+  color: #F95555;
+}
